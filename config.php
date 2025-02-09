@@ -2,7 +2,7 @@
 function dbconnect() {
     $servername = "localhost";
     $username = "root";
-    $password = "Vidha3poluru";
+    $password = "";
     $dbname = "my_challenge";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -17,5 +17,5 @@ function solve($challenge) {
 }
 
 ini_set('log_errors','1');
-ini_set('error_log',"C:\xampp\htdocs\mycode\logs\error_log")
+ini_set('error_log',"")
 ?>
